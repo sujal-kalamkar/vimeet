@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="font-awesome.css">
+        <link rel="stylesheet" href="google-fonts.css">
+        <link rel="stylesheet" href="bootstrap.min.css">
+        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    </head>
+  <body>
+    <header id="header">
+      <a href="#" class="logo"><img src="5.png" alt=""></a>
+    <nav>
+
+      <input type="checkbox" id="click" >
+      <label for="click" class="menu-btn">
+        <i class="fas fa-bars"></i>
+      </label>
+    
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#menu">Menu</a></li>
+        <li><a href="#location">Nearby Restaurants</a></li>
+        <li><a href="#reviews">Reviews</a></li>
+        <li><a href="#login">Log in</a></li>
+      </ul>
+      
+    
+    </div>
+      
+    </div>
+    </nav>
+    <div class="fas fa-bars"></div>
+    </header>
+    <img id="image" src="1.jpg" style="width: 1300px">
+    <script>
+      var imageSources = [ "4.jpg", "2.jpg","3.jpg","1.jpg"]
+      var buttons = document.getElementsByClassName("change-image")[0];
+      var index = 0;
+
+      setInterval (function(){
+  if (index === imageSources.length) {
+    index = 0;
+  }
+        document.getElementById("image").src = imageSources[index];
+        index++;
+      }, 2000);
+
+    </script>
+    <section id="home" class="container-fluid">
+      <div class="row align-items-center min-vh-100 content">
+        <div class="col-md-8 ml-md-5 text-center text-md-left">
+          <h1>RED PARK </h1>
+          <h2>Restaurants</h2>
+          
+          <h3>Order from your couch</h3>
+      
+          <a href="#menu"><button>Book Now</button></a>
+          <div class="icons">
+            <a href="D:\yt-vitual-assistant-javascript-main\yt-vitual-assistant-javascript-main\index.html" class="fab fa-facebook-f"></a>
+            <a href="" class="fab fa-twitter"></a>
+            <a href="" class="fab fa-instagram"></a>
+            <a href="#" class="fab fa-linkedin"></a>
+          </div>
+      </div>
+      </div>
+      </section>
+  </body>
+</html>

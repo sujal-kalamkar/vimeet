@@ -1,0 +1,165 @@
+#image {
+    height: 745px;
+    align-items: center;
+    padding-left: 280px;
+    padding-top: 100px;
+}
+body  {
+    background-color: black;
+    overflow-x: hidden;
+}
+
+#header {
+width: 100%;
+display: flex;
+align-items: center;
+justify-content: space-between;
+position: fixed;
+top : 0;left: 0;
+padding: 1rem 4rem;
+background: #fff;
+box-shadow: 0 .1rem .3rem #999;
+z-index: 1100;
+box-pack: justify;
+height: 100px;
+background-color: white;
+
+}
+
+#header .logo img {
+
+height: 6.3rem;
+width: 6.3rem;
+position: absolute;
+left: 0;
+top: 0;
+
+
+}
+
+#header nav ul{
+display: flex;
+align-items: center;
+justify-content: space-around;
+list-style: none;
+/* margin-bottom: 0;*/
+
+}
+#header nav ul li {
+
+margin-right: 2rem;
+}
+
+#header nav ul li a {
+
+color: grey;
+font-size: 2rem;
+text-decoration: none;
+}
+
+#header nav ul li a:hover {
+
+text-decoration: none;
+color: red;
+transition: all 0.3sec ease;
+}
+
+#header .fa-bars {
+font-size: 3rem;
+color: #333;
+cursor: pointer;
+display: none;
+
+}
+#header nav .menu-btn i{
+ font-size: 22px;
+ color: #1b1b1b;
+ cursor: pointer;
+ display: none;
+ 
+}
+#click{
+ display: none;
+
+}
+#home{
+    min-height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    animation: background 10s alternate infinite;
+    background-image: url("6.jpg");
+  }
+  
+   #home .content .icons {
+      left: 55%;
+      -webkit-transform: translateX(-50%);
+              transform: translateX(-50%);
+    }
+  #home .content{
+    text-shadow: .1rem .1rem .3rem #333;
+      text-decoration-color: #1b1b1b;
+      position: relative;
+      padding-left: 450px;
+  
+      
+    }
+   #home .content h1{
+    font-size: 6rem;
+    color: red;
+    padding-left: 100px
+   }
+    #home .content h2{
+    font-size: 5 rem;
+    color: red;
+    padding-left: 225px;
+  
+   }
+   #home .content h3{
+    font-size: 3rem;
+    color: white;
+    margin: 1rem 0;
+    padding-left: 70px;
+   }
+   #home .content button{
+    outline: none;
+    border: none;
+    border-radius: 5rem;
+    background: red;
+    color: #fff;
+    cursor: pointer;
+    height: 4rem;
+    width: 18rem;
+    font-size: 2rem;
+    text-transform: capitalize;
+    box-shadow: 0 .1rem .3rem #999;
+   }
+  #home .content a:hover{
+    background: #333;
+   }
+
+#home .icons{
+    position: absolute;
+    left: 2rem; bottom: -65%;
+    width: 100%;
+    padding-left: 100px;
+    padding-bottom: 100px;
+  
+   }
+   #home .icons a{
+      height: 4rem;
+      width: 4rem;
+      line-height: 4rem;
+      text-align: center;
+      background: red;
+      font-size: 1.7rem;
+      color: #fff;
+      margin-right: 1.5rem;
+      transition: .4s;
+      border-radius: 5rem;
+    }
+   #home .icons a:hover{
+    background: #333;
+    text-decoration: none;
+    transform: rotate(360deg);
+  }
